@@ -1,6 +1,6 @@
 export const qgisProject = {
   name: "persebaran_apotek.qgz",
-  url: "/data/persebaran_apotek.qgz",
+  url: `${import.meta.env.BASE_URL}data/persebaran_apotek.qgz`,
   layerName: "apotek_panam",
   baseLayerName: "OpenStreetMap",
   tileUrl: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
