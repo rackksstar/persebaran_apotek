@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import MapPage from "./pages/MapPage";
 import { Footer } from "./components/Footer";
-import { Navbar } from "./components/navbar";
+import { Navbar } from "./components/Navbar";
 import AboutPage from "./pages/AboutPage";
 
 export default function App() {
