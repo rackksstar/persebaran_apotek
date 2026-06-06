@@ -12,7 +12,7 @@ export function HowItWorksSection() {
     {
       id: "01",
       title: "Buka Halaman Peta",
-      desc: "Akses menu Peta untuk memuat tampilan geografis wilayah Kota Pekanbaru secara utuh.",
+      desc: "Akses menu Peta untuk memuat titik apotek di kawasan Panam, Pekanbaru.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
@@ -22,7 +22,7 @@ export function HowItWorksSection() {
     {
       id: "02",
       title: "Aktifkan Filter",
-      desc: "Gunakan fitur filter untuk menyaring sekolah berdasarkan jenjang (SD/SMP/SMA) atau status.",
+      desc: "Gunakan filter untuk menyaring apotek berdasarkan kelurahan, kecamatan, atau layanan 24 jam.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 01-.659 1.591l-5.432 5.432a2.25 2.25 0 00-.659 1.591v2.927a2.25 2.25 0 01-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 00-.659-1.591L3.659 7.409A2.25 2.25 0 013 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0112 3z" />
@@ -32,7 +32,7 @@ export function HowItWorksSection() {
     {
       id: "03",
       title: "Klik Lokasi Marker",
-      desc: "Pilih marker pada peta untuk menampilkan detail profil, alamat, dan foto sekolah.",
+      desc: "Pilih marker pada peta untuk melihat nama apotek, alamat, telepon, jam buka, dan koordinat.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zm-7.518-.267A8.25 8.25 0 1120.25 10.5M8.288 14.212A5.25 5.25 0 1117.25 10.5" />
@@ -42,7 +42,7 @@ export function HowItWorksSection() {
     {
       id: "04",
       title: "Analisis Data",
-      desc: "Dapatkan wawasan mengenai persebaran dan kepadatan sekolah di setiap kecamatan.",
+      desc: "Dapatkan wawasan mengenai persebaran fasilitas farmasi pada setiap wilayah layanan.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
@@ -75,7 +75,7 @@ export function HowItWorksSection() {
             Cara Kerja Sistem
           </h2>
           <p className="text-[#697A98] max-w-2xl mx-auto text-lg">
-            Panduan singkat menggunakan WebGIS untuk mengeksplorasi data sekolah dengan efektif.
+            Panduan singkat menggunakan WebGIS untuk mengeksplorasi data apotek dengan efektif.
           </p>
         </div>
 

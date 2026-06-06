@@ -43,10 +43,10 @@ export function Navbar() {
           {/* Teks Identitas */}
           <div className="flex flex-col">
             <h1 className="text-xl font-bold text-[#19335A] leading-none tracking-tight group-hover:text-[#4675C0] transition-colors duration-300">
-              WebGIS Sekolah
+              WebGIS Apotek
             </h1>
             <span className="text-sm text-[#697A98] font-medium mt-0.5">
-              Kota Pekanbaru
+              Panam Pekanbaru
             </span>
           </div>
         </Link>

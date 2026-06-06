@@ -35,12 +35,12 @@ export default function AboutPage() {
             Tentang Aplikasi
           </span>
           <h1 className="text-4xl md:text-5xl font-extrabold text-[#19335A] mb-6 tracking-tight">
-            WebGIS Persebaran Sekolah
+            WebGIS Persebaran Apotek
           </h1>
           <div className="w-24 h-1.5 bg-gradient-to-r from-[#8FC8EB] to-[#4675C0] mx-auto rounded-full mb-8"></div>
           <p className="text-lg md:text-xl text-[#697A98] max-w-3xl mx-auto leading-relaxed">
             Sistem Informasi Geografis berbasis web yang dirancang untuk memvisualisasikan 
-            data lokasi dan profil sekolah SD, SMP, dan SMA/SMK di Kota Pekanbaru 
+            data lokasi dan profil apotek di kawasan Panam, Pekanbaru 
             secara interaktif dan transparan.
           </p>
         </div>
@@ -64,10 +64,10 @@ export default function AboutPage() {
             
             <ul className="space-y-4">
               {[
-                "Menyediakan informasi spasial lokasi sekolah yang akurat.",
-                "Mendukung analisis pemerataan fasilitas pendidikan wilayah.",
-                "Memudahkan masyarakat mencari sekolah terdekat (zonasi).",
-                "Integrasi data pendidikan dalam satu platform digital."
+                "Menyediakan informasi spasial lokasi apotek yang akurat.",
+                "Menghubungkan data QGIS dengan tampilan WebGIS interaktif.",
+                "Memudahkan masyarakat mencari apotek terdekat dan jam bukanya.",
+                "Mengintegrasikan data farmasi dalam satu platform digital."
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3 text-[#697A98] text-[15px] leading-relaxed">
                   <svg className="w-5 h-5 text-[#4675C0] shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
@@ -97,8 +97,8 @@ export default function AboutPage() {
               {[
                 { name: "React JS", desc: "Frontend Library" },
                 { name: "Tailwind CSS", desc: "Modern Styling" },
-                { name: "Leaflet", desc: "Interactive Maps" },
-                { name: "GeoJSON", desc: "Spatial Data Format" }
+                { name: "QGIS", desc: "Project GIS Source" },
+                { name: "QGZ Layer", desc: "Spatial Point Data" }
               ].map((tech, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-slate-50 border border-slate-100 hover:bg-[#8FC8EB]/10 hover:border-[#8FC8EB] transition-colors group">
                   <h4 className="font-bold text-[#19335A] group-hover:text-[#4675C0] transition-colors">{tech.name}</h4>
@@ -119,8 +119,8 @@ export default function AboutPage() {
             <h3 className="text-xl font-semibold mb-3">Harapan Pengembangan</h3>
             <p className="text-[#B6BFD6] leading-relaxed opacity-90">
               "Sistem ini diharapkan dapat menjadi media informasi yang handal dan pendukung 
-              pengambilan keputusan strategis di bidang pendidikan, khususnya terkait 
-              pemerataan akses sekolah di wilayah Kota Pekanbaru."
+              analisis ketersediaan layanan farmasi, khususnya terkait persebaran apotek 
+              di kawasan Panam, Pekanbaru."
             </p>
             <div className="mt-6 flex justify-center gap-2">
                <div className="w-2 h-2 rounded-full bg-[#8FC8EB]"></div>

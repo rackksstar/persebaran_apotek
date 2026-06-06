@@ -55,7 +55,7 @@ export function HeroSection() {
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#4675C0]"></span>
           </span>
           <span className="text-sm font-semibold text-[#19335A] tracking-wide">
-            WebGIS Pendidikan Kota Pekanbaru
+            WebGIS Fasilitas Farmasi Panam
           </span>
         </div>
 
@@ -64,9 +64,9 @@ export function HeroSection() {
           className="animate-fade-in-up text-5xl md:text-6xl lg:text-7xl font-extrabold text-[#19335A] tracking-tight mb-6 leading-[1.1]"
           style={{ animationDelay: '150ms' }}
         >
-          Persebaran Sekolah <br className="hidden md:block" />
+          Persebaran Apotek <br className="hidden md:block" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4675C0] to-[#19335A]">
-            Kota Pekanbaru
+            Panam Pekanbaru
           </span>
         </h1>
 
@@ -76,8 +76,8 @@ export function HeroSection() {
           style={{ animationDelay: '300ms' }}
         >
           Sistem Informasi Geografis (SIG) berbasis web yang menampilkan
-          peta persebaran sekolah SD, SMP, dan SMA/SMK secara interaktif
-          untuk mendukung analisis dan pemerataan pendidikan.
+          titik apotek, alamat, jam buka, dan wilayah administrasi secara interaktif
+          untuk mendukung akses informasi layanan farmasi.
         </p>
 
         {/* Tombol CTA */}

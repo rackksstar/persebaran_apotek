@@ -36,7 +36,7 @@ export function TujuanManfaatSection() {
           </h2>
           <p className="text-[#697A98] text-lg leading-relaxed">
             Sistem Informasi Geografis (SIG) ini dikembangkan untuk mendukung 
-            penyajian informasi persebaran sekolah di Kota Pekanbaru secara 
+            penyajian informasi persebaran apotek di kawasan Panam, Pekanbaru secara 
             spasial, transparan, dan interaktif.
           </p>
         </div>
@@ -66,10 +66,10 @@ export function TujuanManfaatSection() {
             {/* List Items */}
             <ul className="space-y-4">
               {[
-                "Menyediakan peta digital persebaran sekolah SD, SMP, dan SMA/SMK.",
-                "Integrasi data spasial dan non-spasial dalam satu platform web.",
-                "Akses informasi lokasi sekolah yang cepat, akurat, dan real-time.",
-                "Mendukung analisis pemerataan fasilitas pendidikan berbasis wilayah."
+                "Menyediakan peta digital persebaran apotek di Panam, Pekanbaru.",
+                "Mengintegrasikan data QGIS, koordinat, alamat, dan jam buka dalam satu platform web.",
+                "Menyajikan informasi lokasi apotek yang cepat, akurat, dan mudah dibaca.",
+                "Mendukung analisis ketersediaan fasilitas farmasi berbasis wilayah."
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3 text-[#697A98] text-[15px] leading-relaxed">
                   <span className="mt-1 shrink-0 w-5 h-5 rounded-full bg-[#8FC8EB]/20 flex items-center justify-center">
@@ -103,9 +103,9 @@ export function TujuanManfaatSection() {
             {/* List Items */}
             <ul className="space-y-4">
               {[
-                "Memudahkan masyarakat menemukan sekolah terdekat sesuai zonasi.",
-                "Bahan pendukung keputusan pemerintah dalam perencanaan pendidikan.",
-                "Visualisasi data yang informatif untuk kebutuhan riset dan edukasi.",
+                "Memudahkan masyarakat menemukan apotek terdekat beserta jam layanan.",
+                "Bahan pendukung analisis ketersediaan layanan farmasi di wilayah Panam.",
+                "Visualisasi data yang informatif untuk kebutuhan riset, survei, dan pemetaan.",
                 "Media informasi publik yang inklusif dan mudah diakses semua kalangan."
               ].map((item, idx) => (
                 <li key={idx} className="flex items-start gap-3 text-[#697A98] text-[15px] leading-relaxed">
