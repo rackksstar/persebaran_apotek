@@ -62,7 +62,7 @@ export function Footer() {
 
         <div className="border-t border-[#4675C0]/20 pt-8 text-center">
           <p className="text-xs text-[#B6BFD6]/60">
-            Copyright 2025 WebGIS Persebaran Apotek Panam Pekanbaru - Politeknik Caltex Riau. All rights reserved.
+            Copyright 2025 WebGIS Persebaran Apotek Panam Pekanbaru - Universitas Riau. All rights reserved.
           </p>
         </div>
       </div>
